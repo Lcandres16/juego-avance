@@ -7,7 +7,7 @@ body {
     margin: 50px auto;
     max-width: 600px;
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid #5b4c99;
     border-radius: 10px;
   }
   
@@ -30,9 +30,9 @@ body {
   .option {
     cursor: pointer;
     padding: 10px 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #5a1919;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #5d1e1e;
   }
   
   #nextBtn {

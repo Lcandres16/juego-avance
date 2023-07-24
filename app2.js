@@ -1,18 +1,23 @@
 const questions = [
     {
-      question: "¿Cuál es la capital de Francia?",
-      options: ["Madrid", "París", "Londres", "Berlín"],
-      correctAnswer: "París"
+      question: "¿Qué término se utiliza para describir la adaptación de productos y entornos para personas con discapacidad?",
+      options: ["Inclusión", "Diversidad", "Accesibilidad", "Igualdad"],
+      correctAnswer: "Accesibilidad"
     },
     {
-      question: "¿Cuál es el río más largo del mundo?",
-      options: ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
-      correctAnswer: "Amazonas"
+      question: "¿Cuál de los siguientes no es un tipo de discapacidad?",
+      options: ["Visual", "Auditiva", "Inteligente", "Motriz"],
+      correctAnswer: "Inteligente"
     },
     {
-      question: "¿Cuál es el planeta más grande del sistema solar?",
-      options: ["Tierra", "Júpiter", "Marte", "Saturno"],
-      correctAnswer: "Júpiter"
+      question: "¿Cuál de las siguientes opciones representa una forma adecuada de referirse a una persona con discapacidad?",
+      options: [
+        "Persona discapacitada",
+        "Persona con capacidades diferentes",
+        "Persona especial",
+        "Persona con discapacidad"
+      ],
+      correctAnswer: "Persona con discapacidad"
     }
   ];
   
@@ -64,8 +69,4 @@ const questions = [
   
   document.getElementById("nextBtn").addEventListener("click", nextQuestion);
   showQuestion();
-
-  function redirectToAnotherGame() {
-    window.location.href = "level2.html";
-  }
-  document.getElementById("redirectBtn").addEventListener("click", redirectToAnotherGame);
+  
