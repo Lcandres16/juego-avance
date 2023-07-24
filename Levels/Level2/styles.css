@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Estilos para preguntas y opciones */
+#question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.option {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option:hover {
+  background-color: #e9e9e9;
+}
+
+/* Estilos para el botón "Siguiente Pregunta" */
+#nextBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#nextBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el botón "Ir a otro juego" */
+#redirectBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#redirectBtn:hover {
+  background-color: #218838;
+}
+
+/* Estilos para el contenedor de "Level 2" */
+.Level {
+  text-align: center;
+}

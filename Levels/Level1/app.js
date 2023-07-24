@@ -13,7 +13,13 @@ const questions = [
       question: "¿Cuál es el planeta más grande del sistema solar?",
       options: ["Tierra", "Júpiter", "Marte", "Saturno"],
       correctAnswer: "Júpiter"
+    },
+    {
+      question: "¿Cuál es el gentilicio de los Brasileños?",
+      options: ["Cariocas", "Porgues", "Brasileros", "brasileños"],
+      correctAnswer: "Cariocas"
     }
+    
   ];
   
   let currentQuestion = 0;
@@ -66,6 +72,6 @@ const questions = [
   showQuestion();
 
   function redirectToAnotherGame() {
-    window.location.href = "level2.html";
+    window.location.href = "/Levels/Level2/level2.html";
   }
   document.getElementById("redirectBtn").addEventListener("click", redirectToAnotherGame);
